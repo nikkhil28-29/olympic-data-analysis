@@ -1,0 +1,9 @@
+{
+	"name": "olympic-dfactory-nikhil",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "09853e53-50bf-472f-bcd8-04617baa2505",
+		"tenantId": "e331c96f-91d3-4280-acd4-ea1425a9adcc"
+	}
+}

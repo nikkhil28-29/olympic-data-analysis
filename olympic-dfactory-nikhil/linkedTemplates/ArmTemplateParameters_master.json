@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "olympic-dfactory-nikhil"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AthletesHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/nikkhil28-29/olympic-data-analysis/main/data/Athletes.csv"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://olympicdata1nikhil.dfs.core.windows.net/"
+		},
+		"CoachesHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/nikkhil28-29/olympic-data-analysis/main/data/Coaches.csv"
+		},
+		"EntriesGenderHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/nikkhil28-29/olympic-data-analysis/main/data/EntriesGender.csv"
+		},
+		"MedalsHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/nikkhil28-29/olympic-data-analysis/main/data/Medals.csv"
+		},
+		"MedalsHTTPP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/nikkhil28-29/olympic-data-analysis/main/data/Medals.csv"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "azure-data-df-server"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "@{linkedService().dbname}"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "aman"
+		},
+		"TeamsHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/nikkhil28-29/olympic-data-analysis/main/data/Teams.csv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
